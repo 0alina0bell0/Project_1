@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrapper{
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+    height: 100px;
+    background:sienna;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+.logo{
+    text-align: center;
+    width: 30%;
+    float: left;
+    line-height: 100px;
+}
+.logo i{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+}
+.logo a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'East Sea Dokdo', cursive;
+    color: #fff;
+    letter-spacing: 5px;
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'East Sea Dokdo', cursive;
+    letter-spacing: 4px;
+    font-size: 30px;
+    margin: 0 10px;
+    color: #fff;
+}
+.banner-area{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+    background-image:url(../img/For_1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+.banner-area button{
+    text-align: center;
+border:2px dashed sienna;
+border-radius: 20px;
+background-color:rgba(46, 139, 86, 0.671);
+margin-top: 150px;
+
+}
+.banner-area h2{
+    padding-top: 0;
+    font-size: 70px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+.content-area{
+    width: 100%;
+    position:relative;
+    top: 50px;
+    background: #ddd;
+    height: 200px;
+}
+.content-area h2{
+    font-family: 'East Sea Dokdo', cursive;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    font-size: 40px;
+    margin: 0;
+}
+.content-area ul{
+    font-family: 'East Sea Dokdo', cursive;
+    padding-top: 20px;
+    font-size: 30px;
+    margin: 0;
+}
+.content-text{
+    position: relative;
+    margin-top: 100px;
+    font-family:'Times New Roman', Times, serif;
+}
+.img-left{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    width: 400px;
+    height: 400px;
+}
+.img-right{
+    margin-top:00px;
+    padding: 20px;
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.footer-menu{
+    margin-top: 90px;
+    position: relative;
+    padding:30px;
+    box-shadow: 0 0px 10px #ccc;
+    background-color: #fff;
+}
+.footer-container{
+    width: 70%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-menu ul li{
+    display:inline-block;
+}
+.footer-menu ul li a{
+    color:#6E6E6E;
+    margin:10px;
+    font-size:20px;
+    text-decoration:none;
+}
+
+p.copy-right{
+    font-size:15px;
+}
+p.copy-right a{
+    color:#D46E00;
+    text-decoration:none;
+}
